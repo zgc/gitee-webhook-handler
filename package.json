@@ -1,20 +1,20 @@
 {
-  "name": "github-webhook-handler",
-  "version": "0.7.1",
-  "description": "Web handler / middleware for processing GitHub Webhooks",
-  "main": "github-webhook-handler.js",
-  "types": "github-webhook-handler.d.ts",
+  "name": "gitee-webhook-handler",
+  "version": "0.7.1-gitee",
+  "description": "Web handler / middleware for processing Gitee Webhooks",
+  "main": "gitee-webhook-handler.js",
+  "types": "gitee-webhook-handler.d.ts",
   "scripts": {
     "test": "node test.js"
   },
   "keywords": [
-    "github",
+    "gitee",
     "webhooks"
   ],
-  "author": "Rod Vagg <r@va.gg> (http://r.va.gg)",
+  "author": "Guocheng Zheng <hxgsn@hxgsn.com> (https://www.hxgsn.com)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rvagg/github-webhook-handler.git"
+    "url": "https://github.com/zgc/gitee-webhook-handler.git"
   },
   "license": "MIT",
   "dependencies": {
