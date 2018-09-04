@@ -2,6 +2,7 @@ const EventEmitter = require('events').EventEmitter
     // , inherits = require('util').inherits
     // , crypto = require('crypto')
     , bl = require('bl')
+
 // , bufferEq = require('buffer-equal-constant-time')
 
 function create(options) {

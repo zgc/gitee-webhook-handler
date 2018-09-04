@@ -1,7 +1,7 @@
 ///<reference types="node" />
 
-import { IncomingMessage, ServerResponse } from "http";
-import { EventEmitter } from "events";
+import {IncomingMessage, ServerResponse} from "http";
+import {EventEmitter} from "events";
 
 interface CreateHandlerOptions {
     path: string;
